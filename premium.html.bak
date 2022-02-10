@@ -5,7 +5,7 @@
     <body>
         <div>
             <ul>
-                <a href="home.html"><img class="spotify" src="spotifyLogo.png" alt=""></a>
+                <a href="index.html"><img class="spotify" src="spotifyLogo.png" alt=""></a>
                 <li><a href="signup.html"><strong>Sign up</strong></a></li  >
                 <li><a href="login.html"><strong>Log in</strong></a></li>        
                 <li><a href="download.html"><strong>Download</strong></a></li>
