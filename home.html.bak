@@ -1,0 +1,28 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body class="homebody">
+        <div>
+        <ul>
+		<a href="home.html"><img class="spotify" src="spotifyLogo.png" alt=""></a>
+            <li><a href="signup.html"><strong>Sign up</strong></a></li  >
+            <li><a href="login.html"><strong>Log in</strong></a></li>        
+            <li><a href="download.html"><strong>Download</strong></a></li>
+            <li><a href="support.html"><strong>Support</strong></a></li>
+            <li><a class="bar" href="premium.html"><strong>Premium</strong></a></li>
+          </ul>                   
+        </div>
+        <h1>Listening is everything</h1>
+         <h3>Millions of songs and podcasts. No credit card needed.</h3>
+         
+         <div class="buttondiv">
+            <table>
+        <a href="premium.html"> <td class="td-home"> <button type="button" class="button">GET SPOTIFY FREE</button> </td> </a>
+        </table>
+      </div>
+      
+        
+          
+    </body>
+</html>

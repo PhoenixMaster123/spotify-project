@@ -1,0 +1,381 @@
+ul{
+    list-style-type: none;
+     margin: 5;
+     padding: 5;
+      overflow: hidden;
+       background-color: rgb(0, 0, 0);
+       text-align: center;
+       padding-top: 20px;
+}
+li{
+   
+    float: right;   
+    padding-right: 120px; 
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: solid 5px;
+    
+    
+}
+li a {
+  display: inline;
+color: white;
+ text-align: center;
+text-decoration: none;
+}
+.bar{
+    background-color: rgb(red, rgb(5, 99, 36), blue);
+}
+.spotify
+{
+    width:120px;
+    float: center;
+    padding-left: 100px;
+    margin-bottom: 10px;
+    
+}
+.homebody
+{
+    height: 100vh;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+}
+h1{
+    width: 800px;
+    font-size: 156px;
+     padding-left: 550px;
+    color: #1ed760;  
+    text-align: center;
+       
+
+}
+h3{
+    text-align: center;
+    color: #1ed760;  
+}
+button
+{
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+    font-size: 20px;
+    text-align: center;
+    background-color:#1ed760;
+   color: rgb(41, 65, 171); ;
+   margin: 0; 
+
+}
+.premium{
+    background-color: #1d75de;
+}
+.h1-premium
+{
+    font-size: 40px;
+    color: white;
+    padding-top: 100px;
+    text-align: left;
+    padding-left: 400px;
+}
+.h2-premium{
+    font-size: 30px;
+    color: white;
+    padding-top: 0px;
+    text-align: left;
+    padding-left: 400px;
+   
+}
+.button-premium{
+border-radius: 500px;
+font-size: 25px;
+text-align: center;
+background-color: black;
+color:white;
+display: inline;
+}
+.secondbutton-premium{
+    border-radius: 500px;
+    border-color: white;
+font-size: 25px;
+text-align: center;
+color:white;
+background-color: #1d75de;
+display: inline;
+}
+.h5-premium{
+    color:white;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 400px;
+    padding-bottom: 50px;
+  
+  
+}
+.h1-why
+{
+    font-size: 45px;
+    color: black;
+  margin-bottom: 100px;
+    
+}
+.h3-why{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 100px;
+}
+.h3-why2
+{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 300px;
+}
+.h4-why2{
+    color: black;
+    font-size: 20px;
+    padding-left: 330px;
+}
+
+.img-premium
+{
+   
+    width: 150px;
+    padding-left: 330px;
+    
+
+}
+.h4-why{
+    color: black;
+    font-size: 20px;
+    padding-left: 130px;
+}
+.img-no
+{
+    width: 150px;
+    padding-left: 140px;
+  
+ 
+    
+}
+.div-why{
+    display: inline-block;
+}
+.td-buttons-premium
+{
+    padding-left: 400px;
+}
+.td-home
+{
+    padding-left: 800px;
+}
+.div-download
+{
+    background-color: #19e68c;
+}
+.download-img-laptop
+{
+  width: 150px;
+  padding-left: 800px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-bottom: 220px;
+}
+.download-img-circle
+{
+   position: relative;
+   bottom: 380px;
+   left: 860px;
+   width: 30px;
+  
+    
+}
+.download-img-check
+{
+    position: relative;
+    bottom: 403px;
+    left: 866px;
+   
+}
+.h1-download-text
+{
+    position: relative;
+    bottom: 370px;
+    right: 50px; ;
+    font-size: 60px;
+    color: black;
+}
+.h3-download
+{
+    position: relative;
+    bottom: 380px;
+    right: 50px;
+    color: black;
+}
+.download-button
+{
+    position: relative;
+    bottom: 350px;
+    left: 800px;
+    background-color:white ;
+    color: black;
+    font-size: 15px;
+}
+.h1-downloadtext
+{
+    position: relative;
+    bottom: 250px;
+    right: 45px;
+    font-size: 35px;
+    color: black;
+}
+.h4-download
+{
+    position: relative;
+    bottom: 250px;
+    left: 700px;
+    color: black;
+    font-size: 15px;
+
+}
+.img-download
+{
+    position: relative;
+    width: 130px;
+    height: 40px;
+    bottom: 250px;
+    left:620px
+}
+.div-support
+{
+    background-image: url(https://support.scdn.co/web/_next/static/assets);
+    background-color:#2d46b9 ;
+}
+.h1-support
+{
+    font-size: 70px;
+    padding-top: 130px;
+    color: whitesmoke;
+    padding-bottom: 300px;
+
+}
+.search input[type=text]
+{
+    position: relative;
+    bottom:300px;
+    left: 560px;
+    width: 40%;
+    font-size: 28px;
+    background-color: whitesmoke;
+}
+.search-icon
+{
+    position: relative;
+    bottom: 293px;
+    left:525px;
+    width: 30px;
+    
+   
+    
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+.button-login-facebook
+{
+    position: relative;
+    left: 800px;   
+    color:white;
+    background-color: rgb(59 89 152);
+    width: 330px;
+    padding-bottom: 15px;
+}
+.button-login-apple
+{
+    position: relative;
+    left: 800px;   
+    color:white;
+    background-color: black;
+    width: 330px;
+    padding-bottom: 15px;
+    top: 10px;
+}
+.button-login-google
+{
+    position: relative;
+    left: 800px;   
+    color:#6a6a6a;
+    background-color: whitesmoke;
+    width: 330px;
+    padding-bottom: 15px;
+    top: 20px;
+}
+.h2-login
+{
+    position: relative;
+   padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.h4-login{
+    text-align: center;
+    padding-top: 15px;
+}
+.h4-login-email
+{
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+    left: 750px;
+}
+.login input[type=text]
+{
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+    left: 750px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
