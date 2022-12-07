@@ -36,7 +36,8 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
 /* End Fonts */
 /* Start Global rules */
-* {
+* 
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -44,31 +45,26 @@
 /* End Global rules */
 
 /* Start body rules */
-body {
-    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+body 
+{
+    
+background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
 background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 background-attachment: fixed;
-  background-repeat: no-repeat;
+background-repeat: no-repeat;
 
-    font-family: 'Vibur', cursive;
+font-family: 'Vibur', cursive;
 /*   the main font */
-    font-family: 'Abel', sans-serif;
+font-family: 'Abel', sans-serif;
 opacity: .95;
 /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
 }
 
-
-
-/* |||||||||||||||||||||||||||||||||||||||||||||*/
-/* //////////////////////////////////////////// */
-
-
-
-
 /* End body rules */
 
 /* Start form  attributes */
-form {
+form 
+{
     width: 450px;
     min-height: 500px;
     height: auto;
@@ -79,7 +75,8 @@ form {
     background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
 }
 /* form Container */
-form .con {
+form .con 
+{
     display: -webkit-flex;
     display: flex;
   
@@ -98,7 +95,8 @@ header {
     text-align: center;
 }
 /* Login title form form */
-header h2 {
+header h2 
+{
     font-size: 250%;
     font-family: 'Playfair Display', serif;
     color: #3e403f;
@@ -106,13 +104,8 @@ header h2 {
 /*  A welcome message or an explanation of the login form */
 header p {letter-spacing: 0.05em;}
 
-
-
-/* //////////////////////////////////////////// */
-/* //////////////////////////////////////////// */
-
-
-.input-item {
+.input-item 
+{
     background: #fff;
     color: #333;
     padding: 14.5px 0px 15px 9px;
@@ -122,7 +115,8 @@ header p {letter-spacing: 0.05em;}
 
 
 /* Show/hide password Font Icon */
-#eye {
+#eye 
+{
     background: #fff;
     color: #333;
   
@@ -160,7 +154,8 @@ input[class="form-input"]{
 }
 input[id="txt-input"] {width: 250px;}
 /* focus  */
-input:focus {
+input:focus 
+{
     transform: translateX(-2px);
     border-radius: 5px;
 }
@@ -170,7 +165,8 @@ input:focus {
 
 /* input[type="text"] {min-width: 250px;} */
 /* buttons  */
-button {
+button 
+{
     display: inline-block;
     color: #252537;
   
@@ -214,9 +210,9 @@ button:hover {
 
 /* buttons hover Animation */
 button:hover {
-    animation: ani9 0.4s ease-in-out infinite alternate;
+    animation: animate 0.4s ease-in-out infinite alternate;
 }
-@keyframes ani9 {
+@keyframes animate {
     0% {
         transform: translateY(3px);
     }
@@ -224,12 +220,9 @@ button:hover {
         transform: translateY(5px);
     }
 }
-
                   </style>
-              </head>
-			  
+              </head>	  
               <div>
-			  
                 <ul>
                    <a href="index.html"><img src="spotifyLogo.png" alt="" style="width:120px;
     margin-bottom: 10px"></a>
@@ -302,37 +295,33 @@ button:hover {
                   <!-- End Form -->
                 </form>
                 </div>
-
-
                     <script>
-                        function show() {
-    var p = document.getElementById('pwd');
-    p.setAttribute('type', 'text');
-}
+    function show() 
+    {
+      var p = document.getElementById('pwd');
+      p.setAttribute('type', 'text');
+    }
 
-function hide() {
-    var p = document.getElementById('pwd');
-    p.setAttribute('type', 'password');
-}
+function hide() 
+    {
+      var p = document.getElementById('pwd');
+      p.setAttribute('type', 'password');
+    }
 
 var pwShown = 0;
 
 document.getElementById("eye").addEventListener("click", function () {
-    if (pwShown == 0) {
+    if (pwShown == 0) 
+    {
         pwShown = 1;
         show();
-    } else {
+    } 
+   else 
+    {
         pwShown = 0;
         hide();
     }
 }, false);
-
-
-
-                    </script>
-
-
-
-              
+      </script>          
     </body>
 </html>
